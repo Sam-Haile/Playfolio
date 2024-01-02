@@ -1,12 +1,18 @@
 <resources>
 
+    <!-- First Landing Page -->
+    <string name="txt_app_desc">Keep track of all your favorite video games and create a personalized game archive</string>
+
     <!--    Login/Sign Up Page  -->
     <string name="app_login">Login Signup</string>
     <string name="app_sign_in">Sign In</string>
     <string name="btntxt_login">LOGIN</string>
+    <string name="btntxt_get_started">Get Started</string>
     <string name="txt_forgot_password">Forgot Password?</string>
     <string name="txt_no_account">Don\'t have an account?</string>
+    <string name="txt_has_account">Already have an account?</string>
     <string name="txt_signup">Sign Up</string>
+    <string name="txt_signin">Sign In</string>
     <string name="txt_username_email">Username/Email</string>
     <string name="txt_password">Password</string>
     <string name="txt_facebook">Facebook</string>
