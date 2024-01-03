@@ -29,7 +29,25 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="lorem_ipsum">
+    <!--    Onboarding -->
+    <string name="onboarding_title">Customize your gaming profile</string>
+    <string name="onboarding_description">Add an avatar, banner, and gaming preferences to personalize your profile</string>
+    <string name="btntxt_next">Next</string>
+    <string name="btntxt_skip">Skip</string>
+
+
+    <!--    Homepage   -->
+    <string name="txt_home">Home</string>
+    <string name="txt_continue_tracking">Continue Tracking</string>
+    <string name="txt_on_list">Games on your list</string>
+    <string name="txt_collections">Game Collections</string>
+    <string name="txt_tracked_game">Name</string>
+    <string name="txt_tracked_game_time"> Time Played</string>
+    <string name="txt_list_game_name">Name</string>
+    <string name="txt_developer">Developer</string>
+
+
+        <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
@@ -65,4 +83,5 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="title_activity_homepage">Homepage</string>
 </resources>

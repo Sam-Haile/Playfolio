@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="@color/backgroundColor"
-    tools:context=".MainActivity2">
+    tools:context=".First_Time_Landing_Page">
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/first_time_landing_page"
         android:layout_width="347dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -48,7 +48,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-
         android:layout_marginBottom="24dp"
         android:gravity="center"
         android:text="@string/txt_signin"
@@ -61,8 +60,9 @@
 
     <ImageView
         android:id="@+id/getStartedImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:contentDescription="Get Started Image"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
         android:layout_marginTop="168dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -100,17 +100,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appTitle" />
-
-    <Button
-        android:id="@+id/page2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="85dp"
-        android:backgroundTint="#00FFFFFF"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/getStartedImage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
